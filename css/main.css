@@ -9,9 +9,39 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 }
 
 body {
-	background: url('images/brick.jpg') right/cover no-repeat fixed;
-	font-family: sans-serif;
+  background: url('../images/chalkboard.jpg') right/cover no-repeat fixed;
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 1000px;
+  max-height: 1000px;
+}
+
+header {
 	text-align: center;
-	max-width: 1000px;
-	max-height: 1000px;
+}
+
+.logo {
+	max-width: 10em;
+	margin-top: 3%;
+}
+
+h1 {
+  font-size: 2.5em;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	text-decoration: underline;
+	text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+
+p {
+	text-align: center;
+	margin: 3%;
+	font-size: 1.2em;
 }
